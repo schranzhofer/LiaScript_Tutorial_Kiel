@@ -259,6 +259,7 @@ Quellen:
 >
 > * Fuzzy Suche: <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>
 > * Speichern: <kbd>Shift</kbd> + <kbd>S</kbd>
+> *__LiaScript-Preview:__ <kdb>Alt</kdb> + <kdb>L</kdb>
 > * Verschieben von Zeilen: <kbd>Ctrl</kbd> + <kbd>ᐃ/ᐁ</kbd>
 > * __LiaScript__:
 >
@@ -296,6 +297,7 @@ Quellen:
 
 ### Philosophy
 
+
 > ~~__Markdown is intended to be as easy-to-read and easy-to-write as is feasible.__~~
 >
 > Readability, however, is emphasized above all else. A Markdown-formatted document ~~__should be publishable as-is__~~, as plain text, without looking like it’s been marked up with tags or formatting instructions. While Markdown’s syntax has been influenced by several existing text-to-HTML filters — including Setext, atx, Textile, reStructuredText, Grutatext, and EtText — the single ~~__biggest source of inspiration__~~ for Markdown’s syntax is the format of ~~__plain text email__~~.
@@ -312,11 +314,59 @@ Quellen:
 
 #### 1. Absätze und Formatierungen
 
+Dies ist ein Satz.
+Dies ist ein zweiter Satz.
+
+_kursiv_ -- *auch kursiv*
+
+__fett__ -- **auch fett**
+
+___fett und kursiv___
+
+~Durchgestrichen~
+
+~~Unterstrichen~~
+
+Dieser Text ist ~~~Durch- und Unterstrichen~~~.
+
+x^2^
+
+`~~Durchgestrichen~~`
+
+
 #### 2. Listen
+
+* Element 1
+
+          Dies ist ein zweiter Absatz.
+
+          - Unterabschnitt 1
+
+            * Unterabschnitt 2
+
+
+* Element 2
+
+
+1. Erstes Element
+2. Zweites Elemente
+5. Drittes Element
+
+    a. Test
+
+    b. Test
 
 #### 3. Blockquotes
 
+> "Ein wichtiges Zitat"
+>
+> -- **Und** noch mehr davon
+
 #### 4. Tabellen
+
+
+
+
 
 #### 5. Verweise
 
@@ -658,16 +708,16 @@ and amplitude:
 
 <!-- data-type="barchart" id="tabelle" -->
 | Header 1 | <script>@input(`result`)</script> |
-|:-------- |--------: |
-| 1        | @sin(1)  |
-| 2        | @sin(2)  |
-| 3        | @sin(3)  |
-| 4        | @sin(4)  |
-| 5        | @sin(5)  |
-| 6        | @sin(6)  |
-| 7        | @sin(7)  |
-| 8        | @sin(8)  |
-| 9        | @sin(9)  |
+|:-------- | ---------------------------------:|
+| 1        |                           @sin(1) |
+| 2        |                           @sin(2) |
+| 3        |                           @sin(3) |
+| 4        |                           @sin(4) |
+| 5        |                           @sin(5) |
+| 6        |                           @sin(6) |
+| 7        |                           @sin(7) |
+| 8        |                           @sin(8) |
+| 9        |                           @sin(9) |
 
 
 ### Diagramme
