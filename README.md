@@ -1,4 +1,4 @@
-# LiaScript_Tutorial_Kiel Von André und Sebastian
+# LiaScript_Tutorial von Hermann Schranzhofer
 
 
 LiaScript Tutorial an der CAU zu Kiel (5.05.2022)
